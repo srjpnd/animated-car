@@ -83,6 +83,7 @@ nav ul ::after{
     background: #ffff70;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16);
     cursor: pointer;
+    border-radius: 8px;
 }
 .car{
     width: 55%;
@@ -90,4 +91,14 @@ nav ul ::after{
     right: 70px;
     bottom: 60px;
     
+}
+.b-menu{
+ display: flex;
+ bottom: 50px;
+    position: absolute;
+}
+.b-menu div{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
 }
