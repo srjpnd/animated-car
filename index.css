@@ -80,10 +80,12 @@ nav ul ::after{
     outline: none;
     font-size:16px;
     font-weight: 300;
-    background: #ffff70;
+    background: #eb4d4b;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16);
     cursor: pointer;
     border-radius: 8px;
+    color: #fff;
+    
 }
 .car{
     width: 55%;
@@ -106,6 +108,10 @@ nav ul ::after{
 .b-menu img{
     widows: 25px;
     margin-right: 15px;
+}
+#or{
+    color: #130f40;
+    
 }
 @keyframes run {
     0%{
